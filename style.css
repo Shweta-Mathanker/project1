@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    background-color: #F15D58;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    color: #363635;
+    font-family: gs;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 220px;
+   
+}
+#nav1 img{
+    width: 130px;
+    height: 130px;
+    
+}
+#nav1 h2{
+  /* font-family: gs; */
+    padding-top: 35px;
+    margin-left: -20px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing:.1px;
+}
+#nav1 h2 sub{
+    font-size: 6px;
+  font-weight: 1000;
+}
+#one{
+    display: flex;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 300px;
+    gap: 20px;
+}
+#nav2 h3{
+ font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#nav2 img{
+    width: 50px;
+    height: 50px;
+margin-top: -8px;
+}
+#line{
+    display: flex;
+}
+#a{
+    transform: translateY(-20px);
+    padding-left:260px;
+    width: 40%;
+    height: 10px;
+}
+#center{
+    display: flex;
+}
+#center #text{
+     padding-left: 260px;
+    padding-top: 50px;
+}
+#text h1{
+    color: #363635;
+    font-weight: 1000;
+    font-size: 95px;
+}
+#dis{
+    display: flex;
+    font-size: 15px;
+    padding-top: 20px;
+}
+#dis h3{
+    font-size: 20px;
+    color: #DCDDCD;
+    padding-top: 5px;
+}
+#dis i{
+    color: #DCDDCD;
+    border: none;
+    padding-top: 6px;
+    padding-left: 3px;
+    font-size: 17px;
+}
+#dis img{
+    padding-left: -15px;
+    padding-top: 28px;
+}
+#center p{
+color: rgba(255, 255, 255, 0.744);
+font-size: 22px;
+line-height: 1.2;
+}
+#center #robo{
+    transform: translateX(-570px);
+}
+#center #label{
+    transform: translateX(-550px) translateY(310px);
+}
+#center #b{
+    width: 230px;
+    height: 400px;
+    transform: translateX(272%) translateY(-90px);
+}
+#center #c{
+    transform: translateX(410px) translateY(-180px);
+}
+#center #d{
+    height: 80px;
+    transform: rotateY(180deg) rotateX(180deg) translateX(-480px) translateY(120px);
+}
+#center #e{
+    transform: translateX(610px) translateY(-250px);
+}
+#center #f{
+    position: absolute;
+    z-index: 99;
+    top: -40%;
+    left: 148%;
+    width: 50px;
+    
+    transform:rotateZ(-30deg) ;
+    
+}
+#center #g{
+    transform: translateX(410px) translateY(-160px);
+}
+#center #h{
+    width: 70px;
+    height: 70px;
+    transform:rotateZ(0deg) translateX(240px) translateY(-83px);
+}
+#center #j{
+    z-index: 99;
+    width: 50px;
+    transform: rotateY(180deg) rotateZ(-38deg);
+    position: absolute;
+    top: -20%;
+    left: 135%;
+}
+#cloud{
+    width: 100%;
+}
+#two{
+    padding-top: 90px;
+    margin-left:-100px;
+}
+#three{
+    transform: translateY(-40px);
+    margin-left: -200px;
+}
+#four{
+    margin-left: -160px;
+}
+#five{
+transform:translateX(-220px) translateY(-20px);
+}
+#six{
+transform: translateX(-480px) translateY(-40px);
+}
+#seven{
+    width: 350px;
+transform: translateX(-680px) translateY(30px);
+}
+#eight{
+    width: 400px;
+    transform: translateX(620px) translateY(-230px);
+}
+#nine{
+    transform: translateX(540px) translateY(-170px);
+}
+#ten{
+    transform: translateX(420px) translateY(-230px);
+}
+#eleven{
+    width: 70px;
+    transform:translateX(390px) translateY(-270px);
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: #DCDDCD;
+    margin-top: -280px;
+}
+#page2 #z{
+    transform: translateX(430px) translateY(-170px);
+}
+#page2 #y{
+   
+    transform: translateY(50px) translateX(350px);
+}
+#page2 #x{
+   
+    transform: translateY(50px) translateX(450px);
+}
+#page2 #w{
+    transform: translateX(-600px) translateY(-70px);
+}
+#page2 #v{
+
+    transform:translateX(-120px) translateY(-70px);
+}
+#page2 #u{
+   transform: translateY(50px) translateX(-20px);
+}
+#page2 #t{
+    width: 100px;
+    transform: translateY(-50px) translateX(-950px);
+ }
+ #page2 #s{
+    width: 200px;
+    transform: translateY(-210px) translateX(1230px);
+ }
